@@ -21,7 +21,7 @@
       name: "{{ item }}-{{ env }}"
       tags:
         Project: roboshop
-        Component: "{{ item }}"
+        Component: "{{ item }}" 
         Environment: "{{ env }}"
         Name: "{{ item }}-{{ env }}"
     loop: "{{ instances }}"
